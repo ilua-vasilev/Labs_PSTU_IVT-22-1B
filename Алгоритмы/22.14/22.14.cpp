@@ -5,12 +5,10 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "RUS");
-
     int N;
     int sum = 0;
 
-    cout << "please, enter N = ";
+    cout << "please, enter N ";
     cin >> N;
 
     while (N != 0)
