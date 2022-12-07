@@ -9,8 +9,7 @@ int main()
     int num;
     int max = 0;
     int min = 1000000000;
-    int sum = 0;
-    cout << "Ââåäèòå êîëâî ÷èñåë" << endl;
+    cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã«Ã¢Ã® Ã·Ã¨Ã±Ã¥Ã«" << endl;
 
     cin >> n;
 
@@ -30,8 +29,7 @@ int main()
 
 
     }
-    sum = min + max;
-    cout << "Ñóììà:" << sum;
+    cout << "Ã‘Ã³Ã¬Ã¬Ã :"<<(min + max) << sum;
 
     return 0;
 
