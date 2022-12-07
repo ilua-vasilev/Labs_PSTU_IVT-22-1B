@@ -2,6 +2,7 @@
 
 int main()
 {
+	setlocale(LC_ALL, "RUS");
 	int number1, number2;
 
 	std::cout << "введите два числа: " << std::endl;
