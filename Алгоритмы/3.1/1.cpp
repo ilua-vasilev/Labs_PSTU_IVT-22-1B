@@ -1,21 +1,16 @@
 #include <iostream>
 
-void swap(int* a, int* b)
-{
-	int temp = *a;
-	*a = *b;
-	*b = temp;
-}
-
 int main()
 {
 	int number1, number2;
+
+	std::cout << "введите два числа: " << std::endl;
+
 	std::cin >> number1 >> number2;
 
-	std::cout << "swapped" << std::endl;
+	int* pnumber1 = &number1;
+	int* pnumber2 = &number2;
 
-	swap(&number1, &number2);
-
-	std::cout << "number 1: " << number1 << std::endl;
-	std::cout << "number 2: " << number2 << std::endl;
+	std::cout << "number 1: " << *pnumber2 << std::endl;
+	std::cout << "number 2: " << *pnumber1 << std::endl;
 }
