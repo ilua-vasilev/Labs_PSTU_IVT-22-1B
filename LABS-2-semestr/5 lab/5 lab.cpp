@@ -1,6 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
+using namespace std;
 void transpose(int matrix[5][5])
 {
     int t;
@@ -32,9 +33,9 @@ int main()
     {
         for (int j = 0; j < 5; ++j) 
         {
-            std::cout << " " << m[i][j];
+            cout << " " << m[i][j];
         } 
-        std::cout << '\n';
+        cout << '\n';
     }
 
     return 0;
