@@ -32,7 +32,7 @@ int main()
     {
         for (int j = 0; j < 5; ++j) 
         {
-            std::cout << std::setw(4) << m[i][j];
+            std::cout << " " << m[i][j];
         } 
         std::cout << '\n';
     }
