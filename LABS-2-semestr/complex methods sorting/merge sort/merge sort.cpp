@@ -43,15 +43,15 @@ void main()
 	setlocale(LC_ALL, "RUS");
 	int i, n;
 	int* a = new int[100];
-	cout << "Ðàçìåð ìàññèâà: ";
+	cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã¬Ã Ã±Ã±Ã¨Ã¢Ã : ";
 	cin >> n;
 	for (i = 1; i <= n; i++)
 	{
-		cout << i << " ýëåìåíò ";
+		cout << i << " Ã½Ã«Ã¥Ã¬Ã¥Ã­Ã² ";
 		cin >> a[i];
 	}
 	mergesort(a, 1, n);
-	cout << "Ãîòîâàÿ ñîðòèðîâêà :";
+	cout << "ÃƒÃ®Ã²Ã®Ã¢Ã Ã¿ Ã±Ã®Ã°Ã²Ã¨Ã°Ã®Ã¢ÃªÃ  :";
 	for (i = 1; i <= n; i++)
 	{
 		cout << a[i] << " ";
