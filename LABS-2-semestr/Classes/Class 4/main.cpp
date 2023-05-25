@@ -5,26 +5,26 @@
 
 void f1(Person& f)
 {
-	f.setName("Вова");
+	f.setName("Г‚Г®ГўГ ");
 	std::cout << f << "\n";
 }
 
 Person f2()
 {
-	Student s("Олег", 20, 3);
+	Student s("ГЋГ«ГҐГЈ", 20, 3);
 	return s;
 }
 
 int  main()
 {
 	setlocale(LC_ALL, "rus");
-	Person human1("Петя", 19);
+	Person human1("ГЏГҐГІГї", 19);
 	std::cout << human1;
 	std::cout << std::endl;
 
-	Student human2("Иван", 18, 1);
+	Student human2("Г€ГўГ Г­", 18, 1);
 	std::cout << human2;
-	std::cout << "Год с увеличением: " << human2.increase_year_of_study() << "\n";
+	std::cout << "ГѓГ®Г¤ Г± ГіГўГҐГ«ГЁГ·ГҐГ­ГЁГҐГ¬: " << human2.increase_year_of_study() << "\n";
 
 	std::cout << std::endl;
 	Student human3 = human2;
